@@ -792,7 +792,6 @@
             "name": "Attribute IDs",
             "scope": "entity.other.attribute-name.id",
             "settings": {
-                "fontStyle": "normal",
                 "foreground": "#bde0ff"
             }
         },
@@ -800,7 +799,6 @@
             "name": "Attribute class",
             "scope": "entity.other.attribute-name.class.css",
             "settings": {
-                "fontStyle": "normal",
                 "foreground": "#ff66a6"
             }
         },
@@ -1935,7 +1933,7 @@
         "editor.rangeHighlightBackground": "#17003878",
         "editor.rangeHighlightBorder": "#00000000",
         "editor.hoverHighlightBackground": "#573aa981",
-        "editor.wordHighlightStrongBackground": "#170038",
+        "editor.wordHighlightStrongBackground": "#1700388f",
         "editor.wordHighlightStrongBorder": "#8a53b8",
         "editor.wordHighlightBackground": "#791f678f",
         "editor.wordHighlightBorder": "#884ec2",
