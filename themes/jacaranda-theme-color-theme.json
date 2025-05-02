@@ -1704,7 +1704,7 @@
                 "beginning.punctuation.definition.list.markdown.xi"
             ],
             "settings": {
-                "foreground": "#3b7b35"
+                "foreground": "#51ad2d"
             }
         },
         {
@@ -1788,7 +1788,7 @@
             "scope": "comment, punctuation.definition.comment",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#3b7b35"
+                "foreground": "#51ad2d"
             }
         },
         {
@@ -1874,7 +1874,7 @@
         "listFilterWidget.background": "#00020f",
         "listFilterWidget.outline": "#00000000",
         "listFilterWidget.noMatchesOutline": "#543d75",
-        "statusBar.foreground": "#754b9f",
+        "statusBar.foreground": "#8f7bda",
         "statusBar.background": "#00020f",
         "statusBarItem.hoverBackground": "#ffffff1f",
         "statusBar.border": "#00000000",
@@ -1916,7 +1916,7 @@
         "textLink.foreground": "#7c4dff",
         "editor.background": "#00020f",
         "editor.foreground": "#c78eff",
-        "editorLineNumber.foreground": "#41255e",
+        "editorLineNumber.foreground": "#58417c",
         "editorCursor.foreground": "#e0b2ff",
         "editorCursor.background": "#000000",
         "editor.selectionBackground": "#503a7189",
@@ -1937,7 +1937,7 @@
         "editor.wordHighlightStrongBorder": "#8a53b8",
         "editor.wordHighlightBackground": "#791f678f",
         "editor.wordHighlightBorder": "#884ec2",
-        "editor.lineHighlightBackground": "#00020fc9",
+        "editor.lineHighlightBackground": "#00020f70",
         "editor.lineHighlightBorder": "#00000000",
         "editorLineNumber.activeForeground": "#ccaaff",
         "editorLink.activeForeground": "#fc9bff",
@@ -1946,7 +1946,7 @@
         "editorRuler.foreground": "#00000000",
         "editorBracketMatch.background": "#00020fb1",
         "editorBracketMatch.border": "#4f4477",
-        "editor.foldBackground": "#00020fb7",
+        "editor.foldBackground": "#00020f70",
         "editorOverviewRuler.background": "#00000000",
         "editorOverviewRuler.border": "#00000000",
         "editorError.foreground": "#00000000",
@@ -1962,7 +1962,7 @@
         "editorGutter.modifiedBackground": "#400c9d80",
         "editorGutter.addedBackground": "#0c7c6280",
         "editorGutter.deletedBackground": "#f581b280",
-        "editorGutter.foldingControlForeground": "#6f4f8e",
+        "editorGutter.foldingControlForeground": "#58417c",
         "editorCodeLens.foreground": "#735f9f",
         "editorGroup.border": "#110036",
         "diffEditor.insertedTextBackground": "#603d7d33",
