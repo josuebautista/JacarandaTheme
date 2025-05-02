@@ -18,6 +18,7 @@
             }
         ]
     },
+    "icon": "assets/jacaranda-logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/josuebautista/JacarandaTheme"
