@@ -1,21 +1,25 @@
 {
-  "name": "jacarandatheme",
-  "displayName": "JacarandaTheme",
-  "description": "Elegant and modern Indigo & Rebeccapurple colors theme.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.99.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Jacaranda Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Jacaranda Theme-color-theme.json"
-      }
-    ]
-  }
+    "name": "jacarandatheme",
+    "displayName": "JacarandaTheme",
+    "description": "Elegant and modern Indigo & Rebeccapurple colors theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.99.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jacaranda Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jacaranda Theme-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/josuebautista/JacarandaTheme"
+    }
 }
