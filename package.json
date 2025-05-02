@@ -1,7 +1,7 @@
 {
     "name": "jacarandatheme",
     "displayName": "JacarandaTheme",
-    "publisher": "Alejandro Hernandez",
+    "publisher": "AlejandroHernandez",
     "description": "Elegant and modern Indigo & Rebeccapurple colors theme.",
     "version": "0.0.1",
     "engines": {
@@ -15,7 +15,7 @@
             {
                 "label": "Jacaranda Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Jacaranda Theme-color-theme.json"
+                "path": "./themes/jacaranda-theme-color-theme.json"
             }
         ]
     },
