@@ -8,6 +8,27 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
+## [0.1.3] - 2025-05-06
+
+### Added
+- Added editor bracket highlight colors.
+
+### Changed
+- `terminal.background` color.
+
+### Fixed
+- Variables names color for Python.
+- Class names color for CSS.
+- JSON Property Name color.
+
+### Removed
+- `editor.hoverHighlightBackground` color.
+
+## [0.1.2] - 2025-05-06
+
+### Fixed
+- Fixed multiple selections background color.
+
 ## [0.1.1] - 2025-05-06
 
 ### Added
