@@ -1,0 +1,26 @@
+:root {
+    color-scheme: light dark;
+    border: 0px;
+}
+
+body {
+    background-color: light-dark(#fff, #000);
+    color: light-dark(#000, #fff);
+}
+
+
+button {
+    background-color: light-dark(#000, #fff);
+    color: light-dark(#fff, #000);
+}
+
+button:hover {
+    background-color: light-dark(#fff, #000);
+    color: light-dark(#000, #fff);
+}
+
+/*  Main container  */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}

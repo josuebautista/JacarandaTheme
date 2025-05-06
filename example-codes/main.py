@@ -1,5 +1,7 @@
 class Person:
+    count = 0
     def __init__(self, name: str, age: int) -> None:
+        self.id = ++Person.count
         self.name = name
         self.age = age
 

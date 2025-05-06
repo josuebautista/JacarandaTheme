@@ -8,32 +8,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
-## [0.0.1] - 2025-05-01
+## [0.1.1] - 2025-05-06
 
 ### Added
-- Added MIT license.
-- Added publisher name.
-- Added theme logo.
+- Text Mate Rules added.
 
-## [0.0.2] - 2025-05-01
-
-### Added
-- Added colors for notifications.
-
-### Fixed
-- Fixed JSON file path.
-- Fixed editor window border colors.
-
-## [0.0.3] - 2025-05-02
-
-### Fixed
-- Fixed color for `editorLineNumber.foreground`.
-- Fixed color for `editorLineNumber.activeForeground`.
-
-## [0.0.4] - 2025-05-02
-
-### Fixed
-- Fixed transparency of `editor.lineHighlightBackground`.
+### Changed
+- Changed `editor.selectionBackground` color.
+- Changed `editor.inactiveSelectionBackground` color.
+- Changed `editor.foreground` color.
 
 ## [0.1.0] - 2025-05-05
 
@@ -52,3 +35,30 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Removed
 - Some window borders.
 - Some Selection backgrounds.
+
+## [0.0.4] - 2025-05-02
+
+### Fixed
+- Fixed transparency of `editor.lineHighlightBackground`.
+
+## [0.0.3] - 2025-05-02
+
+### Fixed
+- Fixed color for `editorLineNumber.foreground`.
+- Fixed color for `editorLineNumber.activeForeground`.
+
+## [0.0.2] - 2025-05-01
+
+### Added
+- Added colors for notifications.
+
+### Fixed
+- Fixed JSON file path.
+- Fixed editor window border colors.
+
+## [0.0.1] - 2025-05-01
+
+### Added
+- Added MIT license.
+- Added publisher name.
+- Added theme logo.
