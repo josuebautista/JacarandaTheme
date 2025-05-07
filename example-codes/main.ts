@@ -1,27 +1,76 @@
-class EntityPerson {
-    name: string;
-    age: number;
+document.addEventListener("DOMContentLoaded", () => {
+    const checkElement = setInterval(() => {
+      const commandDialog = document.querySelector(".quick-input-widget") as HTMLElement | null;
+      if (commandDialog) {
+        if (commandDialog.style.display !== "none") {
+          runMyScript();
+        }
 
-    constructor(name: string, age: number) {
-        this.name = name;
-        this.age = age;
+        const observer = new MutationObserver((mutations: MutationRecord[]) => {
+          mutations.forEach((mutation) => {
+            if (
+              mutation.type === "attributes" &&
+              mutation.attributeName === "style"
+            ) {
+              if (commandDialog.style.display === "none") {
+                handleEscape();
+              } else {
+                runMyScript();
+              }
+            }
+          });
+        });
+
+        observer.observe(commandDialog, { attributes: true });
+        clearInterval(checkElement);
+      } else {
+        console.log("Command dialog not found yet. Retrying...");
+      }
+    }, 500);
+
+    document.addEventListener("keydown", (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === "p") {
+        event.preventDefault();
+        runMyScript();
+      } else if (event.key === "Escape" || event.key === "Esc") {
+        event.preventDefault();
+        handleEscape();
+      }
+    });
+
+    document.addEventListener(
+      "keydown",
+      (event: KeyboardEvent) => {
+        if (event.key === "Escape" || event.key === "Esc") {
+          handleEscape();
+        }
+      },
+      true
+    );
+
+    function runMyScript(): void {
+      const targetDiv = document.querySelector(".monaco-workbench") as HTMLElement | null;
+      if (!targetDiv) return;
+
+      const existingElement = document.getElementById("command-blur");
+      if (existingElement) {
+        existingElement.remove();
+      }
+
+      const newElement = document.createElement("div");
+      newElement.setAttribute("id", "command-blur");
+
+      newElement.addEventListener("click", () => {
+        newElement.remove();
+      });
+
+      targetDiv.appendChild(newElement);
     }
-    /**
-     * Say hello to the Entityperson
-     */
-    sayHello() {
-        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+
+    function handleEscape(): void {
+      const element = document.getElementById("command-blur");
+      if (element) {
+        element.click();
+      }
     }
-
-    static greet(name: string) {
-        console.log(`Hello, ${name}!`);
-    }
-}
-
-const p1 = new EntityPerson("John", 25);
-const p2 = new EntityPerson("Jane", 30);
-
-p1.sayHello();
-p2.sayHello();
-
-Person.greet("Alice");
+  });
