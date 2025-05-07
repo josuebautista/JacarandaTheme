@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
+## [0.1.4] - 2025-05-07
+
+### Changed
+- TextMateRules for Python, JS/TS, HTMl and CSS.
+
 ## [0.1.3] - 2025-05-06
 
 ### Added
