@@ -9,14 +9,20 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release.
 
 ## [0.1.5] - 2025-05-08
+
+### Added
+- Added TextMateRules for JSON.
+
 ### Changed
-- Changed `storage.type.function.arrow.js` color.
-- Changed `storage.type.function.arrow.ts` color.
+- Color Scheme updated (9 diferent colors).
+
+### Fixed
+- TextMateRules for Python, JS/TS, HTML and CSS.
 
 ## [0.1.4] - 2025-05-07
 
 ### Changed
-- TextMateRules for Python, JS/TS, HTMl and CSS.
+- TextMateRules for Python, JS/TS, HTML and CSS.
 
 ## [0.1.3] - 2025-05-06
 
