@@ -1863,7 +1863,8 @@
             "name": "constant.numeric.hex",
             "scope": [
                 "constant.numeric.hex",
-                "constant.other.color.rgb-value.hex.css"
+                "constant.other.color.rgb-value.hex.css",
+                "source.python"
             ],
             "settings": {
                 "foreground": "#fdcaff"
@@ -1906,6 +1907,8 @@
                 "keyword.operator.logical",
                 "keyword.operator.logical.python",
                 "keyword.other.unit",
+                "storage.type.function.arrow.js",
+                "storage.type.function.arrow.ts"
             ],
             "settings": {
                 "foreground": "#ebce99"
@@ -1917,7 +1920,8 @@
                 "support.class",
                 "support.function",
                 "entity.name.type.class",
-                "entity.other.attribute-name.pseudo-element"
+                "entity.other.attribute-name.pseudo-element",
+                "variable.parameter.function.language.special.cls.python"
             ],
             "settings": {
                 "foreground": "#ff9494"
@@ -1941,6 +1945,12 @@
             "scope": "string",
             "settings": {
                 "foreground": "#a1e2b7"
+            }
+        },
+        {
+            "scope": "source.python",
+            "settings": {
+                "foreground": "#fdcaff"
             }
         }
     ],

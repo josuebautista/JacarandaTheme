@@ -8,6 +8,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
+## [0.1.5] - 2025-05-08
+### Changed
+- Changed `storage.type.function.arrow.js` color.
+- Changed `storage.type.function.arrow.ts` color.
+
 ## [0.1.4] - 2025-05-07
 
 ### Changed
