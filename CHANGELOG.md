@@ -8,6 +8,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
+## [0.1.7] - 2025-05-12
+
+### Added
+- TextMateRules and SemanticTokenColors for Astro & React-JSX/TSX.
+
+### Changed
+- Some TextMateRules to SemanticTokenColors.
+
+## [0.1.6] - 2025-05-09
+
+### Added
+- Added TextMateRules for Go.
+
 ## [0.1.5] - 2025-05-08
 
 ### Added

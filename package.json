@@ -2,8 +2,8 @@
     "name": "jacarandatheme",
     "displayName": "Jacaranda Theme",
     "publisher": "AlejandroHernandez",
-    "description": "Elegant and modern Indigo & Rebeccapurple colors theme.",
-    "version": "0.1.5",
+    "description": "Elegant and modern Indigo color with colorfull scheme theme.",
+    "version": "0.1.7",
     "engines": {
         "vscode": "^1.99.0"
     },
