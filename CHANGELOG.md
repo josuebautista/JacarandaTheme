@@ -8,13 +8,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
-## [0.1.7] - 2025-05-12
+## [0.1.7] - 2025-05-22
 
 ### Added
-- TextMateRules and SemanticTokenColors for Astro & React-JSX/TSX.
+- TextMateRules for CPP & C files.
+- TextMateRules for React (.jsx and .tsx) files.
+- TextMateRules and SemanticTokenColors for Astro files.
+- TextMateRules for Prisma files.
+- TextMateRules for Markdown files.
+- TextMateRules for YAML files.
+- TextMateRules for TOML files.
+- Support for Python Docstring Highlighter extension (https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring).
 
 ### Changed
 - Some TextMateRules to SemanticTokenColors.
+- Some Color for python.
 
 ## [0.1.6] - 2025-05-09
 
