@@ -78,27 +78,27 @@ Our carefully curated color palette combines vibrant purples with complementary 
 
 ### JavaScript/TypeScript
 
-![JS/TS Template](./assets/js-ts-template.jpg)
+![JS/TS Template](./assets/js-ts-template.webp)
 
 ### Python
 
-![Python Template](./assets/python-template.jpg)
+![Python Template](./assets/python-template.webp)
 
 ### React/JSX
 
-![React Template](./assets/react-template.jpg)
+![React Template](./assets/react-template.webp)
 
 ### HTML/CSS
 
-![HTML/CSS Template](./assets/html-css-template.jpg)
+![HTML/CSS Template](./assets/html-css-template.webp)
 
 ### Go
 
-![Go Template](./assets/go-template.jpg)
+![Go Template](./assets/go-template.webp)
 
 ### Configuration Files (YAML/JSON/TOML)
 
-![YAML/JSON/TOML Template](./assets/yaml-json-toml-template.jpg)
+![YAML/JSON/TOML Template](./assets/yaml-json-toml-template.webp)
 
 ## 🚀 Installation
 
