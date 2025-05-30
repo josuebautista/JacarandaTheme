@@ -3,7 +3,7 @@
     "displayName": "Jacaranda Theme",
     "publisher": "AlejandroHernandez",
     "description": "Elegant and modern Deep Purple scheme theme with colorful schemes for JavaScript, TypeScript, Python, C, C++, HTML, CSS, Go, Java, React, Astro, Prisma, Markdown, YAML, TOML, JSON, and more to come soon.",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "engines": {
         "vscode": "^1.99.0"
     },

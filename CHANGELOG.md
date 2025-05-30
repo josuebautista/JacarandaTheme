@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release.
 
+## [0.1.8] - 2025-05-26
+### Fixed
+- Some TextMateRules for Astro files.
+
+### Changed
+- Some colors from typescript and javascript files.
+
 ## [0.1.7] - 2025-05-22
 
 ### Added

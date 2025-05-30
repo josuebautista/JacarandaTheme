@@ -1,6 +1,8 @@
 # Jacaranda Theme 🌸
 
-A beautiful and vibrant VS Code theme inspired by the stunning purple blooms of the Jacaranda tree. This theme brings elegance and readability to your coding experience with carefully crafted colors that reduce eye strain while maintaining excellent syntax highlighting.
+A beautiful and vibrant VS Code theme inspired by the stunning purple blooms of the Jacaranda tree.
+This theme brings elegance and readability to your coding experience with carefully crafted colors
+that reduce eye strain while maintaining excellent syntax highlighting.
 
 ## ✨ Features
 
@@ -33,67 +35,75 @@ Jacaranda Theme provides optimized syntax highlighting for:
 Our carefully curated color palette combines vibrant purples with complementary accent colors:
 
 ### 🎨 **Primary Purples** 💜
-|Color Sample| Name       | Hex      |
-| :------: | :------------- | :-------: |
-| <span style="color:#dac7fc; font-size:1.5em;">&#11044;</span> | Lavender Mist  | `#dac7fc` |
-| <span style="color:#ccb5ff; font-size:1.5em;">&#11044;</span> | Soft Purple    | `#ccb5ff` |
-| <span style="color:#ae89ff; font-size:1.5em;">&#11044;</span> | Medium Purple  | `#ae89ff` |
-| <span style="color:#e484fc; font-size:1.5em;">&#11044;</span> | Bright Magenta | `#e484fc` |
 
-<br>
+| Original Name     | Color Badge                                                                                              | Value (HEX) |
+| ----------------- | -------------------------------------------------------------------------------------------------------- | ----------- |
+| Lunar Lavender    | ![Lilac](https://img.shields.io/badge/variable-ccb5ff?style=for-the-badge&logoColor=black&color=ccb5ff)  | `#ccb5ff`   |
+| Imperial Violet   | ![Violet](https://img.shields.io/badge/keyword-ae89ff?style=for-the-badge&logoColor=white&color=ae89ff)  | `#ae89ff`   |
+| Dawn Orchid       | ![Mauve](https://img.shields.io/badge/parameter-f0a6ff?style=for-the-badge&logoColor=black&color=f0a6ff) | `#f0a6ff`   |
+| Enchanted Magenta | ![Magenta](https://img.shields.io/badge/support-e484fc?style=for-the-badge&logoColor=white&color=e484fc) | `#e484fc`   |
 
 ---
 
 ### 🌸 **Accent Colors** ✨
-|Color Sample| Name       | Hex      |
-| :------: | :-------------- | :-------: |
-| <span style="color:#f0a6ff; font-size:1.5em;">&#11044;</span> | Pink Purple     | `#f0a6ff` |
-| <span style="color:#fdcaff; font-size:1.5em;">&#11044;</span> | Light Pink      | `#fdcaff` |
-| <span style="color:#ff66a6; font-size:1.5em;">&#11044;</span> | Hot Pink        | `#ff66a6` |
-| <span style="color:#ee80ff; font-size:1.5em;">&#11044;</span> | Electric Purple | `#ee80ff` |
 
-<br>
+| Original Name   | Color Badge                                                                                              | Value (HEX) |
+| --------------- | -------------------------------------------------------------------------------------------------------- | ----------- |
+| Cosmic Pink     | ![Fuchsia](https://img.shields.io/badge/special-ee80ff?style=for-the-badge&logoColor=white&color=ee80ff) | `#ee80ff`   |
+| Juicy Raspberry | ![Raspberry](https://img.shields.io/badge/class-ff66a6?style=for-the-badge&logoColor=white&color=ff66a6) | `#ff66a6`   |
+| Sunset Coral    | ![Coral](https://img.shields.io/badge/number-ff9494?style=for-the-badge&logoColor=black&color=ff9494)    | `#ff9494`   |
+| Delicate Peach  | ![Salmon](https://img.shields.io/badge/property-ffbba6?style=for-the-badge&logoColor=black&color=ffbba6) | `#ffbba6`   |
 
 ---
 
 ### 🌿 **Supporting Colors** 🍃
-|Color Sample| Name       | Hex      |
-| :------: | :------------- | :-------: |
-| <span style="color:#ffbba6; font-size:1.5em;">&#11044;</span> | Peach          | `#ffbba6` |
-| <span style="color:#ff9494; font-size:1.5em;">&#11044;</span> | Coral          | `#ff9494` |
-| <span style="color:#ebce99; font-size:1.5em;">&#11044;</span> | Cream          | `#ebce99` |
-| <span style="color:#a1e2b7; font-size:1.5em;">&#11044;</span> | Mint Green     | `#a1e2b7` |
-| <span style="color:#5daf6f; font-size:1.5em;">&#11044;</span> | Forest Green   | `#5daf6f` |
-| <span style="color:#7dc1d6; font-size:1.5em;">&#11044;</span> | Sky Blue       | `#7dc1d6` |
-| <span style="color:#94b9ff; font-size:1.5em;">&#11044;</span> | Periwinkle     | `#94b9ff` |
+
+| Original Name    | Color Badge                                                                                                      | Value (HEX) |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------- | ----------- |
+| Clear Sky        | ![Skyblue](https://img.shields.io/badge/function/method-94b9ff?style=for-the-badge&logoColor=white&color=94b9ff) | `#94b9ff`   |
+| Golden Wheat     | ![Beige](https://img.shields.io/badge/operator-ebce99?style=for-the-badge&logoColor=black&color=ebce99)          | `#ebce99`   |
+| Soft Mint        | ![Mint](https://img.shields.io/badge/string-A1E2B7?style=for-the-badge&logoColor=black&color=A1E2B7)             | `#A1E2B7`   |
+| Jungle Emerald   | ![Emerald](https://img.shields.io/badge/comment-5DAF6F?style=for-the-badge&logoColor=white&color=5DAF6F)         | `#5DAF6F`   |
+| Light Seafoam    | ![Seafoam](https://img.shields.io/badge/format-a1e2dd?style=for-the-badge&logoColor=black&color=a1e2dd)          | `#a1e2dd`   |
+| Serene Turquoise | ![Turquoise](https://img.shields.io/badge/documentation-7dc1d6?style=for-the-badge&logoColor=white&color=7dc1d6) | `#7dc1d6`   |
 
 ### Color Usage
+
 - **Keywords & Control Flow**: Primary purples for `if`, `else`, `function`, `class`
-- **Strings & Text**: Warm peach and coral tones
-- **Comments**: Soft greens for subtle visibility
-- **Variables**: Sky blue and periwinkle for clarity
-- **Operators**: Hot pink for visual distinction
+- **Strings, Text & Comments**: Soft greens for subtle visibility
+- **Functions**: Sky blue and periwinkle for clarity
+- **Operators**: Golden wheat for visual distinction
 
 ## 📸 Screenshots
 
 ### JavaScript/TypeScript
-*Screenshot placeholder - JavaScript syntax highlighting*
+
+![JS/TS Template](./assets/js-ts-template.jpg)
 
 ### Python
-*Screenshot placeholder - Python syntax highlighting*
+
+![Python Template](./assets/python-template.jpg)
 
 ### React/JSX
-*Screenshot placeholder - React component syntax highlighting*
+
+![React Template](./assets/react-template.jpg)
 
 ### HTML/CSS
-*Screenshot placeholder - Web development syntax highlighting*
 
-### Configuration Files (JSON/YAML)
-*Screenshot placeholder - Configuration file syntax highlighting*
+![HTML/CSS Template](./assets/html-css-template.jpg)
+
+### Go
+
+![Go Template](./assets/go-template.jpg)
+
+### Configuration Files (YAML/JSON/TOML)
+
+![YAML/JSON/TOML Template](./assets/yaml-json-toml-template.jpg)
 
 ## 🚀 Installation
 
 ### Via VS Code Marketplace
+
 1. Open VS Code
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for "Jacaranda Theme"
@@ -101,6 +111,7 @@ Our carefully curated color palette combines vibrant purples with complementary 
 5. Go to `File > Preferences > Color Theme` and select "Jacaranda Theme"
 
 ### Manual Installation
+
 1. Download the theme files
 2. Copy to your VS Code extensions folder:
    - **Windows**: `%USERPROFILE%\.vscode\extensions`
@@ -115,9 +126,9 @@ For the best experience with Jacaranda Theme, consider these VS Code settings:
 
 ```json
 {
-  "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "Victor Mono",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.5,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "smooth",
   "editor.bracketPairColorization.enabled": true
@@ -128,26 +139,17 @@ For the best experience with Jacaranda Theme, consider these VS Code settings:
 
 Found a bug or have a suggestion? We'd love to hear from you!
 
-- **Issues**: [Report bugs or request features](https://github.com/username/jacaranda-theme/issues)
-- **Discussions**: [Join the community discussion](https://github.com/username/jacaranda-theme/discussions)
+- **Issues**: [Report bugs or request features](https://github.com/josuebautista/jacaranda-theme/issues)
+- **Discussions**: [Join the community discussion](https://github.com/josuebautista/jacaranda-theme/discussions)
 
 ## 🤝 Contributing
 
 We welcome contributions! Whether it's:
+
 - Adding support for new languages
 - Improving existing syntax highlighting
 - Fixing color contrast issues
 - Updating documentation
-
-Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
-
-## 📋 Changelog
-
-### v1.0.0
-- Initial release
-- Support for 13 programming languages
-- Complete color palette implementation
-- Optimized syntax highlighting
 
 ## 📄 License
 
@@ -161,4 +163,4 @@ Named after the beautiful Jacaranda tree, known for its stunning purple blooms t
 
 **Enjoy coding with Jacaranda Theme!** 🌸
 
-*If you love this theme, please consider leaving a ⭐ review on the marketplace!*
+_If you love this theme, please consider leaving a ⭐ review on the marketplace!_
